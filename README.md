@@ -24,5 +24,6 @@ Guardo los valores del nivel de la bateria y si esta enchufada en unos span con 
 ![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura6.PNG)
 
 Los enlaces de la documentacion:
+
 https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/index.html
 https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-battery-status/index.html
