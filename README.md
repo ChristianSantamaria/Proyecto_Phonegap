@@ -1,70 +1,24 @@
-# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+<h2>Proyecto Phonegap</h2>
 
-A PhoneGap Hello World template
+Este proyecto consta de dos partes:
+La primera utilizando el plugin de la camara llamado a la funcion desde el boton
 
-## Usage
+![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura.PNG)
 
-#### PhoneGap CLI
+el la que se abriria la camara e hicieras una foto, si todo va bien y has sacado la foto entrara en OnSuccess o en el caso de 
+no sacar la foto entrara en onFail y nos avisara del error.
 
-The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
+![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura2.PNG)
 
-    phonegap create my-app
+En la segunda parte utilizo el plugin de la bateria la cual carga al iniciar la pagina tanto como al darle al boton
 
-Create an app using this template specifically:
+![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura3.PNG)
 
-    phonegap create my-app --template hello-world
+esta funcion lo que hace es preguntar el estado completo de la bateria es decir aqui nos mostrara la bateria actual "status.level" y si se encuentra el dispositivo conectado "isPlugged".
 
-To see a list of other available PhoneGap templates:
+![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura4.PNG)
 
-    phonegap template list
+Guardo los valores del nivel de la bateria y si esta enchufada en unos span con los ids concretos para relacionarlos.
 
-## [config.xml][config-xml]
-
-#### android-minSdkVersion (Android only)
-
-Minimum SDK version supported on the target device. Maximum version is blank by default.
-
-This template sets the minimum to `14`.
-
-    <preference name="android-minSdkVersion" value="14" />
-
-#### &lt;access ...&gt; (All)
-
-This template defaults to wide open access.
-
-    <access origin="*" />
-
-It is strongly encouraged that you restrict access to external resources in your application before releasing to production.
-
-For more information on whitelist configuration, see the [Cordova Whitelist Guide][cordova-whitelist-guide] and the [Cordova Whitelist Plugin documentation][cordova-plugin-whitelist]
-
-## [www/index.html][index-html]
-
-#### Content Security Policy (CSP)
-
-The default CSP is similarly open:
-
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-
-Much like the access tag above, you are strongly encouraged to use a more restrictive CSP in production.
-
-A good starting point declaration might be:
-
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" />
-
-For more information on the Content Security Policy, see the [section on CSP in the Cordova Whitelist Plugin documentation][cordova-plugin-whitelist-csp].
-
-Another good resource for generating a good CSP declaration is [CSP is Awesome][csp-is-awesome]
-
-
-[phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
-[cordova-app]: http://github.com/apache/cordova-app-hello-world
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
-[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world
-[config-xml]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/config.xml
-[index-html]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/www/index.html
-[cordova-whitelist-guide]: https://cordova.apache.org/docs/en/dev/guide/appdev/whitelist/index.html
-[cordova-plugin-whitelist]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist
-[cordova-plugin-whitelist-csp]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist#content-security-policy
-[csp-is-awesome]: http://cspisawesome.com
-# Proyecto_Phonegap
+![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura5.PNG)
+![alt text](https://github.com/ChristianSantamaria/Proyecto_Phonegap/blob/master/FotosReadme/Captura6.PNG)
